@@ -1,0 +1,1 @@
+1° foi decidido que a primeira pagina que iremos alterar será a de extrato onde irao aparecer todas as contas a receber,pagar e recorrentes e assim melhorando os filtros que temos no extrato
