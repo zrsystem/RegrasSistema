@@ -16,7 +16,7 @@
 + Somente sera exibido os campos 'valor pago', 'data pagamento' e 'conta bancaria' quando o checkbox de (Pago ?) estiver marcado ✔
 + Somente sera exibido os campos 'valor recebido', 'data recebimento' e 'conta bancaria' quando o checkbox de (Recebido ?) estiver marcado ✔
 + Somente quando a conta recorrente tiver a frequência 'personalizar' deve aparecer um campo 'dias' ✔
-+ Fazer com que ao selecionar o campo 'tipo credor' em contas a pagar altere o input de acordo com o tipo credor selecionado
++ Fazer com que ao selecionar o campo 'tipo credor' em contas a pagar altere o input de acordo com o tipo credor selecionado ✔
 + Fazer com que ao selecionar o campo 'tipo operação' em contas a pagar receber o input de acordo com o tipo credor selecionado
 + Criar um campo de Multa e juros que ja venham com um value presetado e que faça o calculo do valor total que o devedor deve pagar (o admin do sistema podera decidir se o campo será editado, por quem sera editado ou se  o valor ja vira padrão de acordo com as configurações) 
 + Adicionar em configurações do sistema juros e multa padrao de acordo com a forma de pagamento
