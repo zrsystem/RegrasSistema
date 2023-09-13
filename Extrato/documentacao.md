@@ -26,3 +26,4 @@
 
 + Foi dado início  ao front-end da tela já com os filtros e tabela onde ficara todos os dados de contas a receber 
 + Botão opções onde temos as opções imprimir, planilha e cadastrar conta 
+
