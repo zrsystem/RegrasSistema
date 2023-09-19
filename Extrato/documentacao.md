@@ -27,3 +27,30 @@
 + Foi dado início  ao front-end da tela já com os filtros e tabela onde ficara todos os dados de contas a receber 
 + Botão opções onde temos as opções imprimir, planilha e cadastrar conta 
 
+## Campos e Regras de campos
+
++ Check box 'Recebido ?' ou 'Pago ?' (devem aparecer de acordo com o radio escolhido) ✔
++ Data cadastro (ambos) (aparece em ambos os campos porem não permite edição) ✔
++ Data pagamento (pagar) (aparece somente na pagar, quando marcado o check box 'Pago ?') ✔
++ Data recebimento (receber) (aparece somente na pagar, quando marcado o check box 'Recebido ?') ✔
++ Frequência (recorrente) ✔
++ Dias (recorrente) (aparece somente quando o campo frequencia estiver com a opção (personalizado) selecionada) ✔
++ Tipo operação (receber) (aparece os campos de acordo com o que esta selecionado Cliente, Funcionario, Fornecedor, Outro ) ✔
++ Origem (receber) (tipo operação = transferencia) ✔
++ Destino (receber) (tipo operação = transferencia) ✔
++ Tipo de titulo (receber) ✔
++ Tipo credor (pagar) (aparece os campos de acordo com o que esta selecionado Cliente, Funcionario, Fornecedor, Outro ) ✔
++ Plano de contas (ambos) ✔
++ Valor total (ambos) ✔
++ Valor desconto (ambos) (aparece somente caso o 'Pago ?' ou 'Recebido?' esteja marcado ) ✔
++ Valor multa (ambos) ✔
++ Valor juros (ambos) ✔
++ Valor pago (pagar) ✔
++ Valor recebido (receber) ✔
++ Forma pagamento (ambos) ✔
++ Conta bancaria (ambos) ✔
++ N° do documento (ambos) ✔
++ N° nfe (receber) ✔ 
++ Historico (ambos) ✔
++ Situação (recorrente) ✔
++ código de barras  (ambos) ✔
