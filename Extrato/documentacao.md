@@ -1,15 +1,18 @@
-> Status : Em desenvolvimento ⚠
+> Status : Em desenvolvimento ⚠ 
 
 ## Solicitação
 
 + Fazer uma nova tela de extrato onde apareça os 3 tipos de contas também corrigir os filtros do extrato, para que o cliente possa ver todos os tipos de contas em um lugar só sendo possível visualizar tudo que ele tem para pagar, recorrente e receber. o cliente poderá visualizar meses a frente marcando a situação correta em que quer ver a conta no caso de aguardando pagamento e aguardando recebimento.
 
-# Regras Sistema (extrato)
+# Regras de Negocio / Sistema  (extrato)
 
-+ Mostrar os três tipos de contas no extrato sendo elas (receber,pagar,recorrente)
-+ Ter um filtro na tela para habilitar um ou mais tipos de contas que será apresentado
-+ Possibilidade de cadastrar contas
-
++ Mostrar os três tipos de contas no extrato sendo elas (receber,pagar,recorrente) ⏳ 
++ Ter um filtro na tela para habilitar um ou mais tipos de contas que será apresentado ⏳ 
++ Possibilidade de cadastrar contas ⏳ 
++ Possibilidade de dar baixa nas contas pagar e receber ⏳ 
++ Imprimir ou exportar o de acordo com o que apresenta na grid, tando em pdf quanto em arquivo csv ⏳ 
++ Possibilidade dar baixa em varias contas ao mesmo tempo pela grid do extrato ⏳ 
+ 
 #### Regras Sistema (cadastro de contas)
 
 + Mostrar a data cadastro com a hora atual em que o cliente clicou para cadastrar a conta e não deixar que seja editada ✔
@@ -19,8 +22,12 @@
 + Fazer com que ao selecionar o campo 'tipo credor' em contas a pagar altere o input de acordo com o tipo credor selecionado ✔
 + Fazer com que ao selecionar o campo 'tipo operação' em contas a pagar receber o input de acordo com o tipo credor selecionado ✔
 + Criar um campo de Multa e juros que ja venham com um value presetado e que faça o calculo do valor total que o devedor deve pagar (o admin do sistema podera decidir se o campo será editado, por quem sera editado ou se  o valor ja vira padrão de acordo com as configurações) ✔
-+ Adicionar em configurações do sistema juros e multa padrao de acordo com a forma de pagamento
-
++ Adicionar em configurações do sistema juros e multa padrao de acordo com a forma de pagamento ✔
++ Verificação caso o desconto for maior que o valor total da conta não permitir salvar e exibira um alerta ⏳
++ Caso o valor pago da conta for menor que o valor total da mesma devera ser gerada uma outra conta com a diferença ⏳
++ Em formas de pagamento em ambos os tipos de contas (pagar, receber) possibilitar o parcelamento, fazendo assim com que o sistema gere o parcelamento dessas contas de acordo com o selecionado pelo cliente ⏳
++ Gerar recibo de pagamento ou recebimento ⏳
++ Ao dar recebimento em uma conta como forma de pagamento cheque ele tem que dar entrada em custodia de cheques ⏳
 
 ### Funcionalidades
 
